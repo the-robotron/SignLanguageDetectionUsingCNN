@@ -1,4 +1,18 @@
-tensorflow
-keras
-opencv-contrib-python
-split-folders
+# TensorFlow and Keras for deep learning
+tensorflow>=2.8.0
+keras>=2.8.0
+
+# OpenCV for computer vision and webcam
+opencv-contrib-python>=4.5.0
+
+# NumPy for numerical operations
+numpy>=1.21.0
+
+# Matplotlib for visualization
+matplotlib>=3.4.0
+
+# scikit-learn for data utilities
+scikit-learn>=0.24.0
+
+# Split-folders for dataset splitting
+split-folders>=0.5.1
