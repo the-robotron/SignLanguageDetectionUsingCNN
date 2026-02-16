@@ -165,6 +165,9 @@ python realtimedetection.py
 
 The CNN model consists of:
 
+**Note:** This model is specifically trained to recognize 6 ASL gestures: A, M, N, S, T, and blank (no gesture).
+
+
 ```
 Model: Sequential CNN
 _________________________________________________________________
@@ -179,7 +182,7 @@ MaxPooling2D                (None, 23, 23, 128)       0
 Flatten                     (None, 67712)             0
 Dense                       (None, 128)               8667264
 Dropout (0.5)               (None, 128)               0
-Dense (Softmax)             (None, num_classes)       varies
+Dense (Softmax)             (None, 6)       varies
 =================================================================
 Total params: 8,760,512
 Trainable params: 8,760,512
